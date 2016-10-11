@@ -1,0 +1,125 @@
+/* 
+   Localizable.strings
+   QamarDeen
+
+   Created by Ameir Al-Zoubi on 5/27/10.
+   Copyright 2010 Batoul Apps. All rights reserved.
+ */
+
+"SystemLanguage" = "Swedish";
+"AppName" = "QamarDeen";
+
+/* Tab Bar */
+"PrayersTab" = "Böner";
+"QuranTab" = "Koran";
+"SadaqahTab" = "Sadaqah";
+"FastingTab" = "Fasta";
+"SettingsTab" = "Inställningar";
+
+/* Misc. */
+"CancelButton" = "Avbryt";
+"DoneButton" = "Klar";
+"ShowMoreButton" = "Visa Fler";
+
+/* Fasting Types */
+"FastingTypeMandatory" = "Fard";
+"FastingTypeVoluntary" = "Sunnah";
+"FastingTypeReconcile" = "Qada'";
+"FastingTypeForgiveness" = "Kaffarah";
+"FastingTypeVow" = "Löfte";
+"FastingTypeNone" = "Ingen";
+
+/* Prayer Buttons */
+"prayerButtonNone" = "Inte Inställt";
+"prayerButtonAlone" = "Ensam";
+"prayerButtonAloneWithVoluntary" = "Ensam + Sunnah";
+"prayerButtonGroup" = "Jama'a";
+"prayerButtonGroupWithVoluntary" = "Jama'a + Sunnah";
+"prayerButtonLate" = "Försenad";
+"prayerButtonExcused" = "Ursäktad";
+
+/* Charity Buttons" */
+"CharityMoney" = "Pengar";
+"CharityEffort" = "Insats";
+"CharityFood" = "Mat";
+"CharityClothes" = "Kläder";
+"CharitySmile" = "Leende";
+"CharityOther" = "Annat";
+
+/* Quran Headers */
+"DailyMode" = "Dagligen";
+"ExtraMode" = "Extra";
+"DailyReadings" = "Senaste Ayah";
+"DailyReadingsAyah" = "Totalt";
+"ExtraReadings" = "Extra Läsning";
+
+/* Charity Header */
+"CharityHeader" = "Given Allmosa";
+
+/* Fasting Header */
+"HijriDate" = "Hijri Datum";
+"FastingType" = "Fasta Typ";
+
+/* Prayer Header */
+"Fajr" = "Fajr";
+"Shuruq" = "Dhuha";
+"Dhuhr" = "Dhuhr";
+"Asr" = "Asr";
+"Maghrib" = "Maghrib";
+"Isha" = "Isha";
+"Qiyam" = "Qiyam";
+
+/* Quran Tab */
+"NumberOfVersesRead" = "%@ Verser";
+"PickerAyah" = "Ayah %@";
+"PickerSurah" = "%@. %@";
+"PickerInstructions" = "Välj Senast lästa Soorah Eller Ayah";
+"PickerCancel" = "Avbryt";
+"PickerNone" = "Ingen";
+"PickerDone" = "Klar";
+"SurahSelectorTitle" = "Välj Soorah";
+"QuranAction" = "Read in %@";
+"ExtraSurahListing" = ", %@";
+"Log as Daily" = "Dagligen";
+"Log as Extra" = "Extra";
+
+/* Settings Tab */
+"GenderMale" = "    MAN";
+"GenderFemale" = "KVINNA";
+"AboutQamarDeen" = "Om QamarDeen";
+"ExtraPrayersLabel" = "Visa extra böner";
+"UserGenderLabel" = "Användare Kön";
+"ArabicModeLabel" = "Arabiskt Läge";
+"QuranApp" = "Koran App";
+"ProtectionButton" = "Lösenkodlås";
+"ProtectionOn" = "På";
+"ProtectionOff" = "Av";
+"MoreBatoulApps" = "Mer från Batoul Apps";
+"IslamicApps" = "Islamiska Applikationer från Batoul Apps";
+"PasscodeTitle" = "Lösenord";
+"EnterPasscode" = "Ange ett Lösenord";
+"EnterPasscodeVerify" = "Bekräfta Lösenord";
+"EnterYourPasscode" = "Ange Ditt Lösenord";
+"PasscodeMismatch" = "Lösenord matchar inte! Försök Igen.";
+"PasscodeIncorrect" = "Felaktig Lösenord. Försök Igen.";
+"PasscodeCorrect" = "Godkänt";
+
+/* About Panel */
+"BackButton" = "Åter";
+"DesignByButton" = "Designad av";
+"MoreButton" = "Credits";
+"CopyrightLabel" = "© 2012 Batoul Apps, All Rights Reserved";
+
+
+/* Landscape Mode */
+"TotalPrayers" = "Böner Totalt";
+"TotalCharity" = "Allmose Dagar Totalt";
+"TotalFasts" = "Fastade Dagar Totalt";
+"TotalReadings" = "Lästa Verser Totalt";
+"AverageAyahPerDay" = "Lästa Verser I Snitt Per Dag";
+"ReadingDays" = "Läsande Dagar";
+"NonReadingDays" = "Icke Läsande Dag";
+"CharitableDays" = "Allmose Dagar";
+"UncharitableDays" = "Icke Allmose Dagar";
+"FastingDays" = "Fastade Dagar";
+"NonFastingDays" = "Icke Fastade Dagar";

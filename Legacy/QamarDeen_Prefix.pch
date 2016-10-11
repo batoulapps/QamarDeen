@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'QamarDeen' target in the 'QamarDeen' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreData/CoreData.h>
+#endif
+
+#import "BALocalizer.h"
+#define QDAppDelegate (BAQamarDeenAppDelegate *)[[UIApplication sharedApplication] delegate]

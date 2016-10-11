@@ -1,0 +1,125 @@
+/* 
+ Localizable.strings
+ QamarDeen
+ 
+ Created by Ameir Al-Zoubi on 5/27/10.
+ Copyright 2010 Batoul Apps. All rights reserved.
+ */
+
+"SystemLanguage" = "Türkçe";
+"AppName" = "QamarDeen";
+
+/* Tab Bar */
+"PrayersTab" = "Namaz"; 
+"QuranTab" = "Kur'an";
+"SadaqahTab" = "Sadaka";
+"FastingTab" = "Oruç";
+"SettingsTab" = "Ayarlar";
+
+/* Misc. */
+"CancelButton" = "İptal";
+"DoneButton" = "Tamam";
+"ShowMoreButton" = "Daha Fazlasını Göster";
+
+/* Fasting Types */
+"FastingTypeMandatory" = "Farz";
+"FastingTypeVoluntary" = "Sünnet";
+"FastingTypeReconcile" = "Kaza'";
+"FastingTypeForgiveness" = "Kefaret";
+"FastingTypeVow" = "Adak";
+"FastingTypeNone" = "Hiçbiri";
+
+/* Prayer Buttons */
+"prayerButtonNone" = "Ayarlanmadı";
+"prayerButtonAlone" = "Yalnız";
+"prayerButtonAloneWithVoluntary" = "Yalnız + Sünnet";
+"prayerButtonGroup" = "Cemaat";
+"prayerButtonGroupWithVoluntary" = "Cemaat + Sünnet";
+"prayerButtonLate" = "Geç";
+"prayerButtonExcused" = "Mazeretli";
+
+/* Charity Buttons" */
+"CharityMoney" = "Para";
+"CharityEffort" = "Gayret";
+"CharityFood" = "Yiyecek";
+"CharityClothes" = "Giyecek";
+"CharitySmile" = "Tebessüm";
+"CharityOther" = "Diğer";
+
+/* Quran Headers */
+"DailyMode" = "Günlük";
+"ExtraMode" = "Ekstra";
+"DailyReadings" = "Günlük Okumalar";
+"DailyReadingsAyah" = "Ayet Sayısı";
+"ExtraReadings" = "Ekstra Okumalar";
+
+/* Charity Header */
+"CharityHeader" = "Yapılan Yardım";
+
+/* Fasting Header */
+"HijriDate" = "Hicri Tarih";
+"FastingType" = "Oruç Türü";
+
+/* Prayer Header */
+"Fajr" = "Sabah";
+"Shuruq" = "Duha";
+"Dhuhr" = "Öğle";
+"Asr" = "İkindi";
+"Maghrib" = "Akşam";
+"Isha" = "Yatsı";
+"Qiyam" = "Teheccüd";
+
+/* Quran Tab */
+"NumberOfVersesRead" = "%@ ayet";
+"PickerAyah" = "Ayet %@";     
+"PickerSurah" = "%@. %@";
+"PickerInstructions" = "Okuduğunuz son sure ve ayeti seçin";
+"PickerCancel" = "İptal";
+"PickerNone" = "Hiçbiri";
+"PickerDone" = "Tamam";
+"SurahSelectorTitle" = "Sureyi Seçin";
+"QuranAction" = "%@ Ayeti Oku";
+"ExtraSurahListing" = ", %@";
+"Log as Daily" = "Günlük Olarak Kaydedin";
+"Log as Extra" = "Ekstra Olarak Kaydedin";
+
+/* Settings Tab */
+"GenderMale" = "ERKEK";
+"GenderFemale" = "KADIN";
+"AboutQamarDeen" = "QamarDeen Hakkında";
+"ExtraPrayersLabel" = "Ekstra vakitleri göster";
+"UserGenderLabel" = "Kullanıcının cinsiyeti";
+"ArabicModeLabel" = "Arapça Modu";
+"QuranApp" = "Quran App";
+"ProtectionButton" = "Parola Koruması";
+"ProtectionOn" = "Açık";
+"ProtectionOff" = "Kapalı";
+"MoreBatoulApps" = "Batoul Apps'in Diğer Uygulamaları";
+"IslamicApps" = "Batoul Apps'ten İslami Uygulamalar";
+"PasscodeTitle" = "Şifre";
+"EnterPasscode" = "Şifreyi Gir";
+"EnterPasscodeVerify" = "Şifreyi Tekrar Gir";
+"EnterYourPasscode" = "Şifreni Gir";
+"PasscodeMismatch" = "Şifreniz Eşleşmiyor! Tekrar Deneyin.";
+"PasscodeIncorrect" = "Yanlış Şifre! Tekrar Deneyin.";
+"PasscodeCorrect" = "Başarılı";
+
+/* About Panel */
+"BackButton" = "Geri";
+"DesignByButton" = "Tasarım";
+"MoreButton" = "Hazırlayanlar";
+"CopyrightLabel" = "© 2012 Batoul Apps, All Rights Reserved";
+
+
+/* Landscape Mode */
+"TotalPrayers" = "Toplam Vakit Sayısı";
+"TotalCharity" = "Toplam Yardım Günü";
+"TotalFasts" = "Toplam Oruçlu Gün Sayısı";
+"TotalReadings" = "Toplam Okunan Ayet Sayısı";
+"AverageAyahPerDay" = "Bir Günde Okunan Ortalama Ayet Sayısı";
+"ReadingDays" = "Okunan Günler";
+"NonReadingDays" = "Okunmayan Günler";
+"CharitableDays" = "Yardım Yapılan Günler";
+"UncharitableDays" = "Yardım Yapılmayan Günler";
+"FastingDays" = "Oruçlu Günler";
+"NonFastingDays" = "Oruç Tutulmayan Günler";

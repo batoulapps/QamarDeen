@@ -1,0 +1,125 @@
+/* 
+ Localizable.strings
+ QamarDeen
+ 
+ Created by Ameir Al-Zoubi on 5/27/10.
+ Copyright 2010 Batoul Apps. All rights reserved.
+ */
+
+"SystemLanguage" = "Deutsch";
+"AppName" = "QamarDeen";
+
+/* Tab Bar */
+"PrayersTab" = "Gebete";
+"QuranTab" = "Koran";
+"SadaqahTab" = "Sadaqah";
+"FastingTab" = "Fasten";
+"SettingsTab" = "Einstellungen";
+
+/* Misc. */
+"CancelButton" = "Abbrechen";
+"DoneButton" = "Fertig";
+"ShowMoreButton" = "Mehr anzeigen";
+
+/* Fasting Types */
+"FastingTypeMandatory" = "Fareedah";
+"FastingTypeVoluntary" = "Sunnah";
+"FastingTypeReconcile" = "Qada'";
+"FastingTypeForgiveness" = "Kaffarah";
+"FastingTypeVow" = "Nazr";
+"FastingTypeNone" = "Keine";
+
+/* Prayer Buttons */
+"prayerButtonNone" = "Nicht gebetet";
+"prayerButtonAlone" = "Alleine";
+"prayerButtonAloneWithVoluntary" = "Alleine + Sunnah";
+"prayerButtonGroup" = "Jama'a";
+"prayerButtonGroupWithVoluntary" = "Jama'a + Sunnah";
+"prayerButtonLate" = "Spät";
+"prayerButtonExcused" = "Entschuldigt";
+
+/* Charity Buttons" */
+"CharityMoney" = "Geld";
+"CharityEffort" = "Bemühung";
+"CharityFood" = "Essen";
+"CharityClothes" = "Kleider";
+"CharitySmile" = "Lächeln";
+"CharityOther" = "Anderes";
+
+/* Quran Headers */
+"DailyMode" = "Täglich";
+"ExtraMode" = "Extra";
+"DailyReadings" = "Tägliche Lesungen";
+"DailyReadingsAyah" = "Ayah zahl";
+"ExtraReadings" = "Extra Lesungen";
+
+/* Charity Header */
+"CharityHeader" = "Nächstenliebe gegeben";
+
+/* Fasting Header */
+"HijriDate" = "Hijri Datum";
+"FastingType" = "Fasten Art";
+
+/* Prayer Header */
+"Fajr" = "Fajr";
+"Shuruq" = "Dhuha";
+"Dhuhr" = "Dhuhr";
+"Asr" = "Asr";
+"Maghrib" = "Maghrib";
+"Isha" = "Isha";
+"Qiyam" = "Qiyam";
+
+/* Quran Tab */
+"NumberOfVersesRead" = "%@ ayahs";
+"PickerAyah" = "Ayah %@";
+"PickerSurah" = "%@. %@";
+"PickerInstructions" = "Wählen Sie die letzte Sarah und Ayah die gelesen wurde";
+"PickerCancel" = "Abbrechen";
+"PickerNone" = "Keine";
+"PickerDone" = "Fertig";
+"SurahSelectorTitle" = "Surah asuwählen";
+"QuranAction" = "Read in %@";
+"ExtraSurahListing" = ", %@";
+"Log as Daily" = "Täglich";
+"Log as Extra" = "Extra";
+
+/* Settings Tab */
+"GenderMale" = "       M";
+"GenderFemale" = "     W";
+"AboutQamarDeen" = "Info über QamarDeen";
+"ExtraPrayersLabel" = "Extra Gebete zeigen";
+"UserGenderLabel" = "Geschlecht";
+"ArabicModeLabel" = "Arabische Sprache";
+"QuranApp" = "Koran App";
+"ProtectionButton" = "Password Sicherjeit";
+"ProtectionOn" = "An";
+"ProtectionOff" = "Aus";
+"MoreBatoulApps" = "Mehr von Batoul Apps";
+"IslamicApps" = "Islamische Applications von Batoul Apps";
+"PasscodeTitle" = "Passcode";
+"EnterPasscode" = "Eingabe eines Passcode";
+"EnterPasscodeVerify" = "Wiederholte Eingabe des Passcode";
+"EnterYourPasscode" = "Eingabe eines Passcode";
+"PasscodeMismatch" = "Passcode ist falsch! Versuchen Sie es nochmal.";
+"PasscodeIncorrect" = "Falsches Passcode. Versuchen Sie es nochmal.";
+"PasscodeCorrect" = "Erfolgt";
+
+/* About Panel */
+"BackButton" = "Zurück";
+"DesignByButton" = "Design by";
+"MoreButton" = "Credits";
+"CopyrightLabel" = "© 2012 Batoul Apps, All Rights Reserved";
+
+
+/* Landscape Mode */
+"TotalPrayers" = "Gebete insgesamt";
+"TotalCharity" = "Gemeinnützig Tage insgesamt";
+"TotalFasts" = "Tage insgesamt gefastet";
+"TotalReadings" = "Ayahs insgesamt gelesen";
+"AverageAyahPerDay" = "Durchschnittliche Ayahs pro Tag gelesen";
+"ReadingDays" = "Vorlesungs Tage";
+"NonReadingDays" = "Vergessene Vorlesungs Tage";
+"CharitableDays" = "Gemeinnützige Tage";
+"UncharitableDays" = "Lieblose Tage";
+"FastingDays" = "Tage gefastet";
+"NonFastingDays" = "Tage nicht gefastet";

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>التطوير</string>
+		<array>
+			<string>أمير الزعبي</string>
+			<string>ماثو كرنشى</string>
+		</array>
+	</array>
+	<array>
+		<string>التصميم</string>
+		<array>
+			<string>بندر رفه</string>
+		</array>
+	</array>
+	<array>
+		<string>الإشراف الشرعي</string>
+		<array>
+			<string>د. علي أبو الحسن</string>
+			<string>أ. حسن شاهين</string>
+			<string>أ. فهد نويلاتي</string>
+		</array>
+	</array>
+	<array>
+		<string>المشورة و المساعدة</string>
+		<array>
+			<string>م. ياسر أمين</string>
+			<string>عصام قعدان</string>
+			<string>عزيزي خالد</string>
+			<string>جوردين</string>
+			<string>سوبر دين</string>
+			<string>يوسف رفه</string>
+			<string>محمد ملياني</string>
+			<string>فؤاد الفرحان</string>
+			<string>إبراهيم الكشي</string>
+			<string>سفانة كمال</string>
+			<string>نور التميمي</string>
+			<string>خالد الزعبي</string>
+			<string>طيبه قريشي</string>
+		</array>
+	</array>
+</array>
+</plist>

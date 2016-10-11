@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Development</string>
+		<array>
+			<string>Ameir Al-Zoubi</string>
+			<string>Matthew Crenshaw</string>
+		</array>
+	</array>
+	<array>
+		<string>Design</string>
+		<array>
+			<string>Bandar Raffah</string>
+		</array>
+	</array>
+	<array>
+		<string>Islamic Counsel</string>
+		<array>
+			<string>Dr. Ali abu Al-Hasan</string>
+			<string>Hasan Shaheen</string>
+			<string>Fahad Nuwailati</string>
+		</array>
+	</array>
+	<array>
+		<string>Consulting and Assistance</string>
+		<array>
+			<string>Eng. Yasser Amin</string>
+			<string>Issam Qadan</string>
+			<string>Azizi Khaled</string>
+			<string>Jourdein</string>
+			<string>Superdeen</string>
+			<string>Yousef Raffah</string>
+			<string>Muhammad Milyani</string>
+			<string>Fouad Al-Farhan</string>
+			<string>Ibrahim Al-Kushi</string>
+			<string>Sufana Kamal</string>
+			<string>Nour Al-Tamimi</string>
+			<string>Khaled Al-Zoubi</string>
+			<string>Taiyyaba Qureshi</string>
+		</array>
+	</array>
+</array>
+</plist>
