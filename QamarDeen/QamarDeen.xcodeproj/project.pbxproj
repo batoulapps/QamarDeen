@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842F544A1DB1809500DBBFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F54491DB1809500DBBFAE /* AppDelegate.swift */; };
+		842F54511DB1809500DBBFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F544F1DB1809500DBBFAE /* Main.storyboard */; };
+		842F54531DB1809500DBBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F54521DB1809500DBBFAE /* Assets.xcassets */; };
+		842F54561DB1809500DBBFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F54541DB1809500DBBFAE /* LaunchScreen.storyboard */; };
+		842F54611DB1809500DBBFAE /* QamarDeenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F54601DB1809500DBBFAE /* QamarDeenTests.swift */; };
+		84E9E62B1DB1878900B95D62 /* PrayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E62A1DB1878900B95D62 /* PrayersViewController.swift */; };
+		84E9E62D1DB1879900B95D62 /* QuranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E62C1DB1879900B95D62 /* QuranViewController.swift */; };
+		84E9E62F1DB187A700B95D62 /* CharityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E62E1DB187A700B95D62 /* CharityViewController.swift */; };
+		84E9E6311DB187B200B95D62 /* FastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E6301DB187B200B95D62 /* FastingViewController.swift */; };
+		84E9E6331DB187C000B95D62 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E6321DB187C000B95D62 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842F545D1DB1809500DBBFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842F543E1DB1809500DBBFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842F54451DB1809500DBBFAE;
+			remoteInfo = QamarDeen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842F54461DB1809500DBBFAE /* QamarDeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QamarDeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F54491DB1809500DBBFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842F54501DB1809500DBBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842F54521DB1809500DBBFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842F54551DB1809500DBBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842F54571DB1809500DBBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842F545C1DB1809500DBBFAE /* QamarDeenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QamarDeenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F54601DB1809500DBBFAE /* QamarDeenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QamarDeenTests.swift; sourceTree = "<group>"; };
+		842F54621DB1809500DBBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E9E6241DB183E500B95D62 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84E9E6281DB1868000B95D62 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		84E9E62A1DB1878900B95D62 /* PrayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayersViewController.swift; sourceTree = "<group>"; };
+		84E9E62C1DB1879900B95D62 /* QuranViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranViewController.swift; sourceTree = "<group>"; };
+		84E9E62E1DB187A700B95D62 /* CharityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityViewController.swift; sourceTree = "<group>"; };
+		84E9E6301DB187B200B95D62 /* FastingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastingViewController.swift; sourceTree = "<group>"; };
+		84E9E6321DB187C000B95D62 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842F54431DB1809500DBBFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842F54591DB1809500DBBFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842F543D1DB1809500DBBFAE = {
+			isa = PBXGroup;
+			children = (
+				842F54481DB1809500DBBFAE /* QamarDeen */,
+				842F545F1DB1809500DBBFAE /* QamarDeenTests */,
+				842F54471DB1809500DBBFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842F54471DB1809500DBBFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842F54461DB1809500DBBFAE /* QamarDeen.app */,
+				842F545C1DB1809500DBBFAE /* QamarDeenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842F54481DB1809500DBBFAE /* QamarDeen */ = {
+			isa = PBXGroup;
+			children = (
+				84E9E6291DB1876000B95D62 /* View Controllers */,
+				842F54491DB1809500DBBFAE /* AppDelegate.swift */,
+				842F544F1DB1809500DBBFAE /* Main.storyboard */,
+				842F54521DB1809500DBBFAE /* Assets.xcassets */,
+				842F54541DB1809500DBBFAE /* LaunchScreen.storyboard */,
+				842F54571DB1809500DBBFAE /* Info.plist */,
+			);
+			path = QamarDeen;
+			sourceTree = "<group>";
+		};
+		842F545F1DB1809500DBBFAE /* QamarDeenTests */ = {
+			isa = PBXGroup;
+			children = (
+				842F54601DB1809500DBBFAE /* QamarDeenTests.swift */,
+				842F54621DB1809500DBBFAE /* Info.plist */,
+			);
+			path = QamarDeenTests;
+			sourceTree = "<group>";
+		};
+		84E9E6291DB1876000B95D62 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E9E62A1DB1878900B95D62 /* PrayersViewController.swift */,
+				84E9E62C1DB1879900B95D62 /* QuranViewController.swift */,
+				84E9E62E1DB187A700B95D62 /* CharityViewController.swift */,
+				84E9E6301DB187B200B95D62 /* FastingViewController.swift */,
+				84E9E6321DB187C000B95D62 /* SettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842F54451DB1809500DBBFAE /* QamarDeen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842F54651DB1809500DBBFAE /* Build configuration list for PBXNativeTarget "QamarDeen" */;
+			buildPhases = (
+				842F54421DB1809500DBBFAE /* Sources */,
+				842F54431DB1809500DBBFAE /* Frameworks */,
+				842F54441DB1809500DBBFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QamarDeen;
+			productName = QamarDeen;
+			productReference = 842F54461DB1809500DBBFAE /* QamarDeen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842F545B1DB1809500DBBFAE /* QamarDeenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842F54681DB1809500DBBFAE /* Build configuration list for PBXNativeTarget "QamarDeenTests" */;
+			buildPhases = (
+				842F54581DB1809500DBBFAE /* Sources */,
+				842F54591DB1809500DBBFAE /* Frameworks */,
+				842F545A1DB1809500DBBFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842F545E1DB1809500DBBFAE /* PBXTargetDependency */,
+			);
+			name = QamarDeenTests;
+			productName = QamarDeenTests;
+			productReference = 842F545C1DB1809500DBBFAE /* QamarDeenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842F543E1DB1809500DBBFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Batoul Apps";
+				TargetAttributes = {
+					842F54451DB1809500DBBFAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5H3PBG23RV;
+						ProvisioningStyle = Automatic;
+					};
+					842F545B1DB1809500DBBFAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5H3PBG23RV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 842F54451DB1809500DBBFAE;
+					};
+				};
+			};
+			buildConfigurationList = 842F54411DB1809500DBBFAE /* Build configuration list for PBXProject "QamarDeen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 842F543D1DB1809500DBBFAE;
+			productRefGroup = 842F54471DB1809500DBBFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842F54451DB1809500DBBFAE /* QamarDeen */,
+				842F545B1DB1809500DBBFAE /* QamarDeenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842F54441DB1809500DBBFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842F54561DB1809500DBBFAE /* LaunchScreen.storyboard in Resources */,
+				842F54531DB1809500DBBFAE /* Assets.xcassets in Resources */,
+				842F54511DB1809500DBBFAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842F545A1DB1809500DBBFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842F54421DB1809500DBBFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E9E6311DB187B200B95D62 /* FastingViewController.swift in Sources */,
+				842F544A1DB1809500DBBFAE /* AppDelegate.swift in Sources */,
+				84E9E62F1DB187A700B95D62 /* CharityViewController.swift in Sources */,
+				84E9E62D1DB1879900B95D62 /* QuranViewController.swift in Sources */,
+				84E9E62B1DB1878900B95D62 /* PrayersViewController.swift in Sources */,
+				84E9E6331DB187C000B95D62 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842F54581DB1809500DBBFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842F54611DB1809500DBBFAE /* QamarDeenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842F545E1DB1809500DBBFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842F54451DB1809500DBBFAE /* QamarDeen */;
+			targetProxy = 842F545D1DB1809500DBBFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842F544F1DB1809500DBBFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842F54501DB1809500DBBFAE /* Base */,
+				84E9E6281DB1868000B95D62 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842F54541DB1809500DBBFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842F54551DB1809500DBBFAE /* Base */,
+				84E9E6241DB183E500B95D62 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842F54631DB1809500DBBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842F54641DB1809500DBBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842F54661DB1809500DBBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H3PBG23RV;
+				INFOPLIST_FILE = QamarDeen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batoulapps.QamarDeen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		842F54671DB1809500DBBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H3PBG23RV;
+				INFOPLIST_FILE = QamarDeen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batoulapps.QamarDeen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		842F54691DB1809500DBBFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5H3PBG23RV;
+				INFOPLIST_FILE = QamarDeenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batoulapps.QamarDeenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QamarDeen.app/QamarDeen";
+			};
+			name = Debug;
+		};
+		842F546A1DB1809500DBBFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5H3PBG23RV;
+				INFOPLIST_FILE = QamarDeenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batoulapps.QamarDeenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QamarDeen.app/QamarDeen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842F54411DB1809500DBBFAE /* Build configuration list for PBXProject "QamarDeen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842F54631DB1809500DBBFAE /* Debug */,
+				842F54641DB1809500DBBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842F54651DB1809500DBBFAE /* Build configuration list for PBXNativeTarget "QamarDeen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842F54661DB1809500DBBFAE /* Debug */,
+				842F54671DB1809500DBBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842F54681DB1809500DBBFAE /* Build configuration list for PBXNativeTarget "QamarDeenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842F54691DB1809500DBBFAE /* Debug */,
+				842F546A1DB1809500DBBFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842F543E1DB1809500DBBFAE /* Project object */;
+}

@@ -1,0 +1,30 @@
+
+/* Class = "UINavigationItem"; title = "Fasting"; ObjectID = "DIQ-vi-KrA"; */
+"DIQ-vi-KrA.title" = "الصيام";
+
+/* Class = "UITabBarItem"; title = "Charity"; ObjectID = "FLu-2p-Yqk"; */
+"FLu-2p-Yqk.title" = "الصدقة";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "GBT-sJ-AhK"; */
+"GBT-sJ-AhK.title" = "الإعدادات";
+
+/* Class = "UINavigationItem"; title = "Charity"; ObjectID = "HMD-pF-HWg"; */
+"HMD-pF-HWg.title" = "الصدقة";
+
+/* Class = "UITabBarItem"; title = "Fasting"; ObjectID = "KUA-zC-yzX"; */
+"KUA-zC-yzX.title" = "الصيام";
+
+/* Class = "UITabBarItem"; title = "Quran"; ObjectID = "OS7-lK-REl"; */
+"OS7-lK-REl.title" = "القرآن";
+
+/* Class = "UINavigationItem"; title = "Prayers"; ObjectID = "jXo-Xl-5eY"; */
+"jXo-Xl-5eY.title" = "الصلاة";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "n8b-N6-tOq"; */
+"n8b-N6-tOq.title" = "الإعدادات";
+
+/* Class = "UITabBarItem"; title = "Prayers"; ObjectID = "zaw-K1-QGg"; */
+"zaw-K1-QGg.title" = "الصلاة";
+
+/* Class = "UINavigationItem"; title = "Quran"; ObjectID = "zcD-tO-49a"; */
+"zcD-tO-49a.title" = "القرآن";

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5ES-QK-WBK" kind="relationship" relationship="viewControllers" id="3EM-cl-H3c"/>
+                        <segue destination="4cI-5a-hqo" kind="relationship" relationship="viewControllers" id="uaS-vf-wjO"/>
+                        <segue destination="HeL-6p-ZTg" kind="relationship" relationship="viewControllers" id="1Vr-Q9-82E"/>
+                        <segue destination="M7i-jC-i4f" kind="relationship" relationship="viewControllers" id="6UO-6a-JS1"/>
+                        <segue destination="O7W-te-jfw" kind="relationship" relationship="viewControllers" id="lJq-xh-MXm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Charity-->
+        <scene sceneID="xa0-1t-HQt">
+            <objects>
+                <navigationController id="HeL-6p-ZTg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Charity" id="FLu-2p-Yqk"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uog-BG-UMW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ele-EP-Twz" kind="relationship" relationship="rootViewController" id="Ykc-8l-EAv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhf-ZF-QJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="0.0"/>
+        </scene>
+        <!--Charity-->
+        <scene sceneID="498-RF-WCr">
+            <objects>
+                <viewController id="ele-EP-Twz" customClass="CharityViewController" customModule="QamarDeen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3wm-l0-OGV"/>
+                        <viewControllerLayoutGuide type="bottom" id="34U-K4-zxf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WAN-To-pkM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Charity" id="HMD-pF-HWg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C3f-de-0yl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="0.0"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="z8F-pC-IEm">
+            <objects>
+                <navigationController id="O7W-te-jfw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="n8b-N6-tOq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AEF-XB-g4m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OQP-B5-7DT" kind="relationship" relationship="rootViewController" id="IAl-HI-Mnk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d21-Ft-Xjq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="1439"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Sva-sJ-fBG">
+            <objects>
+                <viewController id="OQP-B5-7DT" customClass="SettingsViewController" customModule="QamarDeen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Whh-cy-152"/>
+                        <viewControllerLayoutGuide type="bottom" id="JLD-rj-B0A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L7V-Ut-TC9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="GBT-sJ-AhK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lju-Bj-jxv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="1439"/>
+        </scene>
+        <!--Fasting-->
+        <scene sceneID="pbO-aH-MMr">
+            <objects>
+                <navigationController id="M7i-jC-i4f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fasting" id="KUA-zC-yzX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pWB-zM-oCz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Po0-4G-DAf" kind="relationship" relationship="rootViewController" id="faI-XF-ZIt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GrI-BQ-EaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="757"/>
+        </scene>
+        <!--Fasting-->
+        <scene sceneID="O0E-Nf-m1N">
+            <objects>
+                <viewController id="Po0-4G-DAf" customClass="FastingViewController" customModule="QamarDeen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ho-zB-Hse"/>
+                        <viewControllerLayoutGuide type="bottom" id="bbg-T4-eNk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tve-Xy-OfD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fasting" id="DIQ-vi-KrA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lyl-uD-Lje" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="757"/>
+        </scene>
+        <!--Quran-->
+        <scene sceneID="g0g-XV-hzm">
+            <objects>
+                <navigationController id="4cI-5a-hqo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Quran" id="OS7-lK-REl"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Eki-id-nRm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vFv-q0-CPH" kind="relationship" relationship="rootViewController" id="WN5-KA-dpX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0e-yE-N1V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="-705"/>
+        </scene>
+        <!--Quran-->
+        <scene sceneID="yVL-Ho-dfi">
+            <objects>
+                <viewController id="vFv-q0-CPH" customClass="QuranViewController" customModule="QamarDeen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E3N-T1-bx3"/>
+                        <viewControllerLayoutGuide type="bottom" id="8aM-sA-fzz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ldb-PL-KR0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Quran" id="zcD-tO-49a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ATB-FB-kmn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="-706"/>
+        </scene>
+        <!--Prayers-->
+        <scene sceneID="LN4-Gl-9ls">
+            <objects>
+                <navigationController id="5ES-QK-WBK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Prayers" id="zaw-K1-QGg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hqT-9P-nti">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KBZ-Oy-nl7" kind="relationship" relationship="rootViewController" id="1lO-wD-Chz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1F-2U-PwE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="-1415"/>
+        </scene>
+        <!--Prayers-->
+        <scene sceneID="QQ7-AL-3fI">
+            <objects>
+                <viewController id="KBZ-Oy-nl7" customClass="PrayersViewController" customModule="QamarDeen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0G3-Gz-Usu"/>
+                        <viewControllerLayoutGuide type="bottom" id="wME-jL-Cal"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dx1-2r-8Vt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Prayers" id="jXo-Xl-5eY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tRJ-VD-ZUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="-1415"/>
+        </scene>
+    </scenes>
+</document>
