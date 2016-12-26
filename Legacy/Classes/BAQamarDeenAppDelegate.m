@@ -91,6 +91,7 @@ static BAQamarDeenAppDelegate *sharedAppDelegate;
 	
 	loadingView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Default.png"]];
 	
+    [window setRootViewController:self.navigationController];
 	[window addSubview:[self.navigationController view]];
 	[window addSubview:loadingView];
 	
