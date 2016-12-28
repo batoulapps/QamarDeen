@@ -13,3 +13,18 @@ import CoreData
 public class Charity: NSManagedObject {
 
 }
+
+// MARK: Charity.Kind
+
+extension Charity {
+    
+    enum Kind: NSNumber {
+        
+        case money
+        case effort
+        case feeding
+        case clothes
+        case smile
+        case other
+    }
+}

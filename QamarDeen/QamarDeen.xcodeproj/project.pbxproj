@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31EE1E13ADA8009D76BF /* DataManager.swift */; };
+		825B31F31E13B9EB009D76BF /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31F21E13B9EB009D76BF /* Points.swift */; };
 		82AC63BE1E105D00008FE029 /* QamarDeen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */; };
 		82AC63CA1E105DE8008FE029 /* Reading+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */; };
 		82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C11E105DE8008FE029 /* Reading+CoreDataProperties.swift */; };
@@ -19,6 +20,8 @@
 		82AC63D11E105DE8008FE029 /* Prayer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C71E105DE8008FE029 /* Prayer+CoreDataProperties.swift */; };
 		82AC63D21E105DE8008FE029 /* Fast+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C81E105DE8008FE029 /* Fast+CoreDataClass.swift */; };
 		82AC63D31E105DE8008FE029 /* Fast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C91E105DE8008FE029 /* Fast+CoreDataProperties.swift */; };
+		82B808801E13E90800ED1EA9 /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B8087F1E13E90800ED1EA9 /* Quran.swift */; };
+		82B808821E13F6F100ED1EA9 /* CountableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B808811E13F6F100ED1EA9 /* CountableAction.swift */; };
 		842F544A1DB1809500DBBFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F54491DB1809500DBBFAE /* AppDelegate.swift */; };
 		842F54511DB1809500DBBFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F544F1DB1809500DBBFAE /* Main.storyboard */; };
 		842F54531DB1809500DBBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F54521DB1809500DBBFAE /* Assets.xcassets */; };
@@ -43,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		825B31EE1E13ADA8009D76BF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		825B31F21E13B9EB009D76BF /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 		82AC63BC1E105D00008FE029 /* QamarDeen 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QamarDeen 2.xcdatamodel"; sourceTree = "<group>"; };
 		82AC63BD1E105D00008FE029 /* QamarDeen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QamarDeen.xcdatamodel; sourceTree = "<group>"; };
 		82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reading+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		82AC63C71E105DE8008FE029 /* Prayer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Prayer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		82AC63C81E105DE8008FE029 /* Fast+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fast+CoreDataClass.swift"; sourceTree = "<group>"; };
 		82AC63C91E105DE8008FE029 /* Fast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fast+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		82B8087F1E13E90800ED1EA9 /* Quran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		82B808811E13F6F100ED1EA9 /* CountableAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountableAction.swift; sourceTree = "<group>"; };
 		842F54461DB1809500DBBFAE /* QamarDeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QamarDeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F54491DB1809500DBBFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842F54501DB1809500DBBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,12 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		825B31F11E13B9CB009D76BF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				825B31F21E13B9EB009D76BF /* Points.swift */,
+				82B8087F1E13E90800ED1EA9 /* Quran.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		82AC63BA1E105CC6008FE029 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				82AC63BF1E105D66008FE029 /* Generated */,
 				82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */,
 				825B31EE1E13ADA8009D76BF /* DataManager.swift */,
+				82B808811E13F6F100ED1EA9 /* CountableAction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +155,7 @@
 		842F54481DB1809500DBBFAE /* QamarDeen */ = {
 			isa = PBXGroup;
 			children = (
+				825B31F11E13B9CB009D76BF /* Services */,
 				82AC63BA1E105CC6008FE029 /* Model */,
 				84E9E6291DB1876000B95D62 /* View Controllers */,
 				842F54491DB1809500DBBFAE /* AppDelegate.swift */,
@@ -216,7 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Batoul Apps";
 				TargetAttributes = {
 					842F54451DB1809500DBBFAE = {
@@ -278,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AC63CE1E105DE8008FE029 /* Day+CoreDataClass.swift in Sources */,
+				82B808801E13E90800ED1EA9 /* Quran.swift in Sources */,
 				84E9E6311DB187B200B95D62 /* FastingViewController.swift in Sources */,
 				82AC63BE1E105D00008FE029 /* QamarDeen.xcdatamodeld in Sources */,
 				842F544A1DB1809500DBBFAE /* AppDelegate.swift in Sources */,
@@ -290,11 +308,13 @@
 				82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */,
 				84E9E62D1DB1879900B95D62 /* QuranViewController.swift in Sources */,
 				82AC63CD1E105DE8008FE029 /* Charity+CoreDataProperties.swift in Sources */,
+				825B31F31E13B9EB009D76BF /* Points.swift in Sources */,
 				84E9E62B1DB1878900B95D62 /* PrayersViewController.swift in Sources */,
 				82AC63D01E105DE8008FE029 /* Prayer+CoreDataClass.swift in Sources */,
 				82AC63D11E105DE8008FE029 /* Prayer+CoreDataProperties.swift in Sources */,
 				82AC63D31E105DE8008FE029 /* Fast+CoreDataProperties.swift in Sources */,
 				84E9E6331DB187C000B95D62 /* SettingsViewController.swift in Sources */,
+				82B808821E13F6F100ED1EA9 /* CountableAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +377,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -407,6 +428,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

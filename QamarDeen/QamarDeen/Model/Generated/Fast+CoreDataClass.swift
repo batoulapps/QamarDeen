@@ -13,3 +13,18 @@ import CoreData
 public class Fast: NSManagedObject {
 
 }
+
+// MARK: Fast.Kind
+
+extension Fast {
+    
+    enum Kind: NSNumber {
+        
+        case none
+        case mandatory
+        case voluntary
+        case reconcile
+        case forgiveness
+        case vow
+    }
+}

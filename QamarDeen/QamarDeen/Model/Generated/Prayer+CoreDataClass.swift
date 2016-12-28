@@ -13,3 +13,35 @@ import CoreData
 public class Prayer: NSManagedObject {
 
 }
+
+// MARK: Prayer.Method
+
+extension Prayer {
+
+    enum Method: NSNumber {
+        
+        case none
+        case alone
+        case aloneWithVoluntary
+        case group
+        case groupWithVoluntary
+        case late
+        case excused
+    }
+}
+
+// MARK: Prayer.Kind
+
+extension Prayer {
+    
+    enum Kind: NSNumber {
+        
+        case fajr
+        case shuruq
+        case dhuhr
+        case asr
+        case maghrib
+        case isha
+        case qiyam
+    }
+}
