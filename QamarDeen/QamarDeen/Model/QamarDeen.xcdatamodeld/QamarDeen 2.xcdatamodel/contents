@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1108" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Charity" representedClassName="Charity" syncable="YES">
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="day" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="charities" inverseEntity="Day" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Day" representedClassName="Day" syncable="YES">
+        <attribute name="gregorianDate" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
+        <attribute name="hijriDate" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isModifiedHijriDate" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="charities" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Charity" inverseName="day" inverseEntity="Charity" indexed="YES" syncable="YES"/>
+        <relationship name="fast" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Fast" inverseName="day" inverseEntity="Fast" indexed="YES" syncable="YES"/>
+        <relationship name="prayers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Prayer" inverseName="day" inverseEntity="Prayer" indexed="YES" syncable="YES"/>
+        <relationship name="readings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reading" inverseName="day" inverseEntity="Reading" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Fast" representedClassName="Fast" syncable="YES">
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="day" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="fast" inverseEntity="Day" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Prayer" representedClassName="Prayer" syncable="YES">
+        <attribute name="method" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="day" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="prayers" inverseEntity="Day" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Reading" representedClassName="Reading" syncable="YES">
+        <attribute name="endAyah" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endSurah" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isExceptional" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startAyah" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startSurah" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="day" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="readings" inverseEntity="Day" indexed="YES" syncable="YES"/>
+    </entity>
+    <configuration name="QamarDeen">
+        <memberEntity name="Day"/>
+        <memberEntity name="Fast"/>
+        <memberEntity name="Prayer"/>
+        <memberEntity name="Reading"/>
+        <memberEntity name="Charity"/>
+    </configuration>
+    <elements>
+        <element name="Day" positionX="25" positionY="36" width="128" height="150"/>
+        <element name="Fast" positionX="205" positionY="9" width="128" height="75"/>
+        <element name="Charity" positionX="36" positionY="267" width="128" height="75"/>
+        <element name="Prayer" positionX="414" positionY="45" width="128" height="90"/>
+        <element name="Reading" positionX="358" positionY="216" width="128" height="135"/>
+    </elements>
+</model>
