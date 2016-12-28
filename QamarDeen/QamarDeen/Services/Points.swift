@@ -81,7 +81,7 @@ private class Points {
 extension Collection where Iterator.Element: CountableAction {
     
     var points: Int {
-        return map { $0.points}
+        return map { $0.points }
             .reduce(0, +)
     }
 }
@@ -119,7 +119,7 @@ extension Reading: CountableAction {
 }
 
 // MARK: Day
-extension Day {
+extension Day: CountableAction {
     
     var charityCollection: [Charity] {
         return charities?.flatMap { $0 as? Charity } ?? []
