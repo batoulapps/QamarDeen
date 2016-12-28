@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31EE1E13ADA8009D76BF /* DataManager.swift */; };
 		82AC63BE1E105D00008FE029 /* QamarDeen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */; };
 		82AC63CA1E105DE8008FE029 /* Reading+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */; };
 		82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C11E105DE8008FE029 /* Reading+CoreDataProperties.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		825B31EE1E13ADA8009D76BF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		82AC63BC1E105D00008FE029 /* QamarDeen 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QamarDeen 2.xcdatamodel"; sourceTree = "<group>"; };
 		82AC63BD1E105D00008FE029 /* QamarDeen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QamarDeen.xcdatamodel; sourceTree = "<group>"; };
 		82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reading+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				82AC63BF1E105D66008FE029 /* Generated */,
 				82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */,
+				825B31EE1E13ADA8009D76BF /* DataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				84E9E62F1DB187A700B95D62 /* CharityViewController.swift in Sources */,
 				82AC63D21E105DE8008FE029 /* Fast+CoreDataClass.swift in Sources */,
 				82AC63CF1E105DE8008FE029 /* Day+CoreDataProperties.swift in Sources */,
+				825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */,
 				82AC63CC1E105DE8008FE029 /* Charity+CoreDataClass.swift in Sources */,
 				82AC63CA1E105DE8008FE029 /* Reading+CoreDataClass.swift in Sources */,
 				82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */,
