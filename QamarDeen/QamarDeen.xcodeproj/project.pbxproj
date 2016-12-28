@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824469CB1E14118F00B6E165 /* ReadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824469CA1E14118F00B6E165 /* ReadingTests.swift */; };
+		824469CD1E14149200B6E165 /* Surahs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 824469CC1E14149200B6E165 /* Surahs.plist */; };
 		825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31EE1E13ADA8009D76BF /* DataManager.swift */; };
 		825B31F31E13B9EB009D76BF /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31F21E13B9EB009D76BF /* Points.swift */; };
 		82AC63BE1E105D00008FE029 /* QamarDeen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		824469CA1E14118F00B6E165 /* ReadingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingTests.swift; sourceTree = "<group>"; };
+		824469CC1E14149200B6E165 /* Surahs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Surahs.plist; sourceTree = "<group>"; };
 		825B31EE1E13ADA8009D76BF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		825B31F21E13B9EB009D76BF /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 		82AC63BC1E105D00008FE029 /* QamarDeen 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QamarDeen 2.xcdatamodel"; sourceTree = "<group>"; };
@@ -97,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		824469C91E14117000B6E165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				824469CA1E14118F00B6E165 /* ReadingTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		825B31F11E13B9CB009D76BF /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +175,7 @@
 				842F54521DB1809500DBBFAE /* Assets.xcassets */,
 				842F54541DB1809500DBBFAE /* LaunchScreen.storyboard */,
 				842F54571DB1809500DBBFAE /* Info.plist */,
+				824469CC1E14149200B6E165 /* Surahs.plist */,
 			);
 			path = QamarDeen;
 			sourceTree = "<group>";
@@ -170,6 +183,7 @@
 		842F545F1DB1809500DBBFAE /* QamarDeenTests */ = {
 			isa = PBXGroup;
 			children = (
+				824469C91E14117000B6E165 /* Model */,
 				842F54601DB1809500DBBFAE /* QamarDeenTests.swift */,
 				842F54621DB1809500DBBFAE /* Info.plist */,
 			);
@@ -274,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824469CD1E14149200B6E165 /* Surahs.plist in Resources */,
 				842F54561DB1809500DBBFAE /* LaunchScreen.storyboard in Resources */,
 				842F54531DB1809500DBBFAE /* Assets.xcassets in Resources */,
 				842F54511DB1809500DBBFAE /* Main.storyboard in Resources */,
@@ -322,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824469CB1E14118F00B6E165 /* ReadingTests.swift in Sources */,
 				842F54611DB1809500DBBFAE /* QamarDeenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
