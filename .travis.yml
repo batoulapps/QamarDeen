@@ -3,4 +3,4 @@ osx_image: xcode8.2
 xcode_project: QamarDeen/QamarDeen.xcodeproj
 xcode_scheme: QamarDeen
 script:
- - xcodebuild -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2' -project QamarDeen/QamarDeen.xcodeproj -scheme QamarDeen -sdk iphonesimulator test
+ - xcodebuild -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' -project QamarDeen/QamarDeen.xcodeproj -scheme QamarDeen -sdk iphonesimulator test
