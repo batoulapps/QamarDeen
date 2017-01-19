@@ -11,6 +11,8 @@
 		824469CD1E14149200B6E165 /* Surahs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 824469CC1E14149200B6E165 /* Surahs.plist */; };
 		825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31EE1E13ADA8009D76BF /* DataManager.swift */; };
 		825B31F31E13B9EB009D76BF /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B31F21E13B9EB009D76BF /* Points.swift */; };
+		828FB9EC1E30C0190060B060 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FB9EB1E30C0190060B060 /* NotificationScheduler.swift */; };
+		828FB9EE1E30C34B0060B060 /* NotificationMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FB9ED1E30C34B0060B060 /* NotificationMeta.swift */; };
 		82AC63BE1E105D00008FE029 /* QamarDeen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */; };
 		82AC63CA1E105DE8008FE029 /* Reading+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */; };
 		82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC63C11E105DE8008FE029 /* Reading+CoreDataProperties.swift */; };
@@ -51,6 +53,8 @@
 		824469CC1E14149200B6E165 /* Surahs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Surahs.plist; sourceTree = "<group>"; };
 		825B31EE1E13ADA8009D76BF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		825B31F21E13B9EB009D76BF /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		828FB9EB1E30C0190060B060 /* NotificationScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		828FB9ED1E30C34B0060B060 /* NotificationMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationMeta.swift; sourceTree = "<group>"; };
 		82AC63BC1E105D00008FE029 /* QamarDeen 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QamarDeen 2.xcdatamodel"; sourceTree = "<group>"; };
 		82AC63BD1E105D00008FE029 /* QamarDeen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QamarDeen.xcdatamodel; sourceTree = "<group>"; };
 		82AC63C01E105DE8008FE029 /* Reading+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reading+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 			children = (
 				825B31F21E13B9EB009D76BF /* Points.swift */,
 				82B8087F1E13E90800ED1EA9 /* Quran.swift */,
+				828FB9EB1E30C0190060B060 /* NotificationScheduler.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 				82AC63BB1E105D00008FE029 /* QamarDeen.xcdatamodeld */,
 				825B31EE1E13ADA8009D76BF /* DataManager.swift */,
 				82B808811E13F6F100ED1EA9 /* CountableAction.swift */,
+				828FB9ED1E30C34B0060B060 /* NotificationMeta.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				82AC63CF1E105DE8008FE029 /* Day+CoreDataProperties.swift in Sources */,
 				825B31EF1E13ADA8009D76BF /* DataManager.swift in Sources */,
 				82AC63CC1E105DE8008FE029 /* Charity+CoreDataClass.swift in Sources */,
+				828FB9EC1E30C0190060B060 /* NotificationScheduler.swift in Sources */,
 				82AC63CA1E105DE8008FE029 /* Reading+CoreDataClass.swift in Sources */,
 				82AC63CB1E105DE8008FE029 /* Reading+CoreDataProperties.swift in Sources */,
 				84E9E62D1DB1879900B95D62 /* QuranViewController.swift in Sources */,
@@ -328,6 +335,7 @@
 				82AC63D01E105DE8008FE029 /* Prayer+CoreDataClass.swift in Sources */,
 				82AC63D11E105DE8008FE029 /* Prayer+CoreDataProperties.swift in Sources */,
 				82AC63D31E105DE8008FE029 /* Fast+CoreDataProperties.swift in Sources */,
+				828FB9EE1E30C34B0060B060 /* NotificationMeta.swift in Sources */,
 				84E9E6331DB187C000B95D62 /* SettingsViewController.swift in Sources */,
 				82B808821E13F6F100ED1EA9 /* CountableAction.swift in Sources */,
 			);
@@ -416,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -461,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

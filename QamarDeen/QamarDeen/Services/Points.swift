@@ -10,7 +10,7 @@ import Foundation
 
 /// Points
 /// class which holds the points calculation
-private class Points {
+private final class Points {
     
     static func `for`(_ fast: Fast) -> Int {
         
