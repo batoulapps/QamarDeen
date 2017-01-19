@@ -30,7 +30,7 @@ final class NotificationScheduler {
     
     class func scheduleNotifications(_ notifications: [NotificationMeta]) {
         
-        guard canScheduleAlerts else {
+        guard notifications.isEmpty || canScheduleAlerts else {
             return
         }
         
