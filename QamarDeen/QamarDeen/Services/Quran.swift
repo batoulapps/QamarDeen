@@ -12,7 +12,7 @@ import Foundation
 /// it is the holy book of Islam. It is divided in two ways:
 /// 1. Into Surahs, which are further split into Ayahs
 /// 2. Into Juzs, which are a collections of Page Faces
-class Quran {
+final class Quran {
     
     static let instance = Quran()
 
