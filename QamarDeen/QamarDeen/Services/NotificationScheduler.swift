@@ -53,6 +53,7 @@ extension NotificationMeta {
         localNotification.alertBody = message
         localNotification.fireDate = date
         localNotification.repeatInterval = frequency
+        localNotification.soundName = UILocalNotificationDefaultSoundName
         
         return localNotification
     }
