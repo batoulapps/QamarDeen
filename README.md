@@ -8,7 +8,7 @@ QamarDeen is an Islamic Activity Tracker. Similar to fitness or diet trackers, i
 Originally developed and published in 2010 by Batoul Apps and designed by Bandar Raffah. The app has now been made open source to keep the app maintained with the support of the community.
 
 
-##App Spec
+## App Spec
 
 Contained in the wiki is the [App Spec](https://github.com/batoulapps/QamarDeen/wiki/) which describes the app features, the technical components, and agreed upon approaches to the development of the app.
 
